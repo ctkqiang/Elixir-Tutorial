@@ -1,6 +1,6 @@
-defmodule HelloWorldModule do # Module Will Output as Erlang File [name].beam
+defmodule HelloWorld do
   def main do
     string = "Hello World"
-    IO.puts(string)  # Prints String
+    IO.puts(string)
   end
 end
